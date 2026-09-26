@@ -4,7 +4,7 @@ Nama:
 -
 -
 - Renata Ayu Sekar Kumala (25/557585/PA/23428)
--
+- Ucok Kamal (25/566250/PA/23896)
 
 
 # Server — Aplikasi Jaringan Socket Programming
