@@ -32,9 +32,23 @@ def matrix_determinant(m):
 
 def matrix_inverse(m, det):
     # TODO: belum diimplementasi, nyusul
-    pass
+    if det == 0:
+        return None
+    
+    a, b, c = m[0]
+    d, e, f = m[1]
+    g, h, i = m[2]
+
+    # matriks kofaktor, lalu invers = transpose(kofaktor) / det
+    cof = [
+        [e * i - f * h, -(d * i - f * g), d * h - e * g],
+        [-(b * i - c * h), a * i - c * g, -(a * h - b * g)],
+        [b * f - c * e, -(a * f - c * d), a * e - b * d],
+    ]
+    return [[round(cof[c_][r] / det, 4) for c_ in range(3)] for r in range(3)]
 
 
 def matrix_det_inv(m):
     # TODO: belum menggabungkan determinant + inverse
-    pass
+    det = matrix_determinant(m)
+    return det, matrix_inverse(m, det)
