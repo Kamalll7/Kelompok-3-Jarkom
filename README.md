@@ -5,6 +5,7 @@ Nama:
 - Luna Angellani Ediwiyono (25/561354/PA/23666)
 - Renata Ayu Sekar Kumala (25/557585/PA/23428)
 - Ucok Kamal (25/566250/PA/23896)
+- Dania Hafiza (25/559418/PA/23530)
 
 
 # Server — Aplikasi Jaringan Socket Programming

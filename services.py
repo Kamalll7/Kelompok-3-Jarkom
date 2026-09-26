@@ -14,7 +14,6 @@ def reverse_string(text):
 
 
 def remove_vowel(text):
-    # TODO: masih pakai cara manual, belum dioptimasi
     result = ""
     for ch in text:
         if ch not in VOWELS:
@@ -23,7 +22,6 @@ def remove_vowel(text):
 
 
 def matrix_determinant(m):
-    # TODO: baru support cara umum, belum ditest untuk semua kasus
     a, b, c = m[0]
     d, e, f = m[1]
     g, h, i = m[2]
@@ -31,7 +29,6 @@ def matrix_determinant(m):
 
 
 def matrix_inverse(m, det):
-    # TODO: belum diimplementasi, nyusul
     if det == 0:
         return None
     
@@ -49,6 +46,5 @@ def matrix_inverse(m, det):
 
 
 def matrix_det_inv(m):
-    # TODO: belum menggabungkan determinant + inverse
     det = matrix_determinant(m)
     return det, matrix_inverse(m, det)
