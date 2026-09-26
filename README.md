@@ -7,7 +7,7 @@ Nama:
 - Ucok Kamal (25/566250/PA/23896)
 - Dania Hafiza (25/559418/PA/23530)
 
-# Server — Aplikasi Jaringan Socket Programming
+# Bagian Server Aplikasi Jaringan Socket Programming
 
 Implementasi server sesuai `PROTOCOL.md`. Dibangun dengan Python standard library saja (`socket`, `json`, `random`), tidak ada dependency eksternal.
 
