@@ -9,13 +9,13 @@ Nama:
 
 # Server — Aplikasi Jaringan Socket Programming
 
-Implementasi server sesuai `PROTOCOL.md`. Dibangun dengan Python standard library saja (`socket`, `json`, `random`) — tidak ada dependency eksternal.
+Implementasi server sesuai `PROTOCOL.md`. Dibangun dengan Python standard library saja (`socket`, `json`, `random`), tidak ada dependency eksternal.
 
 ## Struktur File
 
-- `server.py` — program utama: socket TCP, loop terima klien, logika request/response/ACK/penonaktifan layanan.
-- `protocol.py` — konstanta jenis pesan & kode layanan, fungsi kirim/terima pesan JSON.
-- `services.py` — implementasi murni kelima layanan (hitung karakter, hitung kata, reverse string, hapus vokal, determinan & invers matriks 3x3).
+- `server.py` - program utama: socket TCP, loop terima klien, logika request/response/ACK/penonaktifan layanan.
+- `protocol.py` - konstanta jenis pesan & kode layanan, fungsi kirim/terima pesan JSON.
+- `services.py` - implementasi murni kelima layanan (hitung karakter, hitung kata, reverse string, hapus vokal, determinan & invers matriks 3x3).
 
 ## Cara Menjalankan
 
@@ -27,8 +27,8 @@ Server bind ke port `12000` dan menunggu koneksi klien.
 
 ## Konfigurasi
 
-- `PORT` di `server.py` — port yang dipakai, harus sama dengan yang dipakai klien.
-- `WRONG_PROBABILITY` di `server.py` — peluang server sengaja mengirim jawaban salah (default `0.25`).
+- `PORT` di `server.py` - port yang dipakai, harus sama dengan yang dipakai klien.
+- `WRONG_PROBABILITY` di `server.py` - peluang server sengaja mengirim jawaban salah (default `0.25`).
 
 ## Perilaku
 
